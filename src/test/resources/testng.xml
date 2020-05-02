@@ -9,7 +9,6 @@
       <class name="com.test.automation.pages.ContactUsPageTest"/>
       <class name="com.test.automation.pages.RegistartionPageTest"/>
       <class name="com.test.automation.pages.SignupPageTest"/>
-      <class name="com.test.automation.pages.ContactUsPageTestDemo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

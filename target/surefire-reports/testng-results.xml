@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9473" started-at="2020-05-02T11:45:48Z" finished-at="2020-05-02T11:45:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9473" started-at="2020-05-02T11:45:48Z" finished-at="2020-05-02T11:45:58Z">
+      <class name="com.test.automation.pages.SignupPageTest">
+        <test-method status="PASS" signature="signUpFormFour()[pri:0, instance:com.test.automation.pages.SignupPageTest@1593948d]" name="signUpFormFour" duration-ms="0" started-at="2020-05-02T11:45:58Z" finished-at="2020-05-02T11:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpFormFour -->
+        <test-method status="PASS" signature="signUpFormThree()[pri:0, instance:com.test.automation.pages.SignupPageTest@1593948d]" name="signUpFormThree" duration-ms="1" started-at="2020-05-02T11:45:58Z" finished-at="2020-05-02T11:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpFormThree -->
+        <test-method status="PASS" signature="signUpFormOne()[pri:0, instance:com.test.automation.pages.SignupPageTest@1593948d]" name="signUpFormOne" duration-ms="0" started-at="2020-05-02T11:45:58Z" finished-at="2020-05-02T11:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpFormOne -->
+        <test-method status="PASS" signature="signUpFormTwo()[pri:0, instance:com.test.automation.pages.SignupPageTest@1593948d]" name="signUpFormTwo" duration-ms="0" started-at="2020-05-02T11:45:58Z" finished-at="2020-05-02T11:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpFormTwo -->
+      </class> <!-- com.test.automation.pages.SignupPageTest -->
+      <class name="com.test.automation.pages.ContactUsPageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.test.automation.pages.ContactUsPageTest@51565ec2]" name="setExtent" is-config="true" duration-ms="229" started-at="2020-05-02T11:45:48Z" finished-at="2020-05-02T11:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="loginPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.pages.ContactUsPageTest@51565ec2]" name="loginPageTest" duration-ms="8812" started-at="2020-05-02T11:45:49Z" data-provider="LoginPageCredentialsDataProvider" finished-at="2020-05-02T11:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.webdriveruniversity.com/Contact-Us/contactus.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dravid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rahuldravid@test.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[crickter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.automation.pages.ContactUsPageTest@51565ec2]" name="tearDown" is-config="true" duration-ms="122" started-at="2020-05-02T11:45:57Z" finished-at="2020-05-02T11:45:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTest status=SUCCESS method=ContactUsPageTest.loginPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.pages.ContactUsPageTest@51565ec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.test.automation.pages.ContactUsPageTest@51565ec2]" name="endReport" is-config="true" duration-ms="281" started-at="2020-05-02T11:45:58Z" finished-at="2020-05-02T11:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.test.automation.pages.ContactUsPageTest -->
+      <class name="com.test.automation.pages.RegistartionPageTest">
+        <test-method status="PASS" signature="registartionFormFour()[pri:0, instance:com.test.automation.pages.RegistartionPageTest@482f8f11]" name="registartionFormFour" duration-ms="0" started-at="2020-05-02T11:45:58Z" finished-at="2020-05-02T11:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registartionFormFour -->
+        <test-method status="PASS" signature="registartionFormOne()[pri:0, instance:com.test.automation.pages.RegistartionPageTest@482f8f11]" name="registartionFormOne" duration-ms="0" started-at="2020-05-02T11:45:58Z" finished-at="2020-05-02T11:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registartionFormOne -->
+        <test-method status="PASS" signature="registartionFormThree()[pri:0, instance:com.test.automation.pages.RegistartionPageTest@482f8f11]" name="registartionFormThree" duration-ms="0" started-at="2020-05-02T11:45:58Z" finished-at="2020-05-02T11:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registartionFormThree -->
+        <test-method status="PASS" signature="registartionFormTwo()[pri:0, instance:com.test.automation.pages.RegistartionPageTest@482f8f11]" name="registartionFormTwo" duration-ms="0" started-at="2020-05-02T11:45:58Z" finished-at="2020-05-02T11:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registartionFormTwo -->
+      </class> <!-- com.test.automation.pages.RegistartionPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
