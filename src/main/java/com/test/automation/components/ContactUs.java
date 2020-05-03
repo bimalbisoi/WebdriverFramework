@@ -94,7 +94,8 @@ public class ContactUs extends BasePage {
 	{
 		return this.unSuccessfulSubmissionHeader;
 	}
-	// Actions
+	
+	// Actions method
 	public void submitAllInformationViaContactUsForm(String firstName,String lastName,String emailAddress,String comments)
 	{
 		this.getFirstName().sendKeys(firstName);
