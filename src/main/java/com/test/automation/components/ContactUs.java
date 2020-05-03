@@ -25,7 +25,7 @@ public class ContactUs extends BasePage {
 	@FindBy(css="textarea[name='message']")
 	private WebElement comments;
 
-	@FindBy(css="input[value='SUBMIT1']")
+	@FindBy(css="input[value='SUBMIT2']")
 	private WebElement submitButton;
 
 	@FindBy(css="input[value='RESET']")
